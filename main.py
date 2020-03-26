@@ -27,6 +27,5 @@ if __name__ == '__main__':
     while not main(driver, link):
         sleep(10)
         numero_tentativi += 1
-        # toaster.show_toast("DecathlonAddCartBot", f"Tentativo numero {numero_tentativi}")
         print(numero_tentativi)
     toaster.show_toast("DecathlonAddCartBot", "Il prodotto da lei selezionato è al momento disponibile")
